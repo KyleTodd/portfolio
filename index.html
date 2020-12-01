@@ -5,16 +5,16 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap" rel="stylesheet">
     </head>
-    <div class="container center_main"> 
+    <div class="container-fluid center_main"> 
         <!-- Name and profile main information -->
         <div class="row main_row">
             <!-- Name, heading -->
-            <div class="col-8 red hover">
+            <div class="col-8 red">
             <div class="name">NAME</div>
             <div class="subheading">subheading</div>
             </div>
             <!-- Headshot png -->
-            <div class="col blue hover"> 
+            <div class="col blue "> 
                 <div class="headshot">
                     <img class="headshot_photo img-fluid" src="./Images/Headshot_white.png" alt="Headshot image">
                 </div>
@@ -24,25 +24,33 @@
         <!-- About me -->
         <div class="row about_me">
             <!-- Bio on left -->
-            <div class="col hover">
+            <div class="col hover bio_container">
                 Bio
+                <div class="row">
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget viverra nunc. Suspendisse mauris risus, interdum id eleifend ultricies, lacinia sed ex. Cras suscipit rutrum imperdiet. In finibus ex non diam fermentum, at mattis lacus fermentum. Integer id feugiat mauris. Aenean sit amet arcu a augue congue elementum quis sit amet eros. Proin vel nisl ante. Nulla hendrerit et purus vitae auctor. Quisque dui purus, placerat a fringilla eu, rutrum a nibh. Nunc aliquet ipsum id sodales imperdiet.
+                        </p>
+                    <p>
+                    Maecenas ultricies mollis tortor eu blandit. Integer viverra quam ligula, sit amet imperdiet sem laoreet sit amet. Proin lectus ipsum, facilisis sed turpis accumsan, maximus molestie sapien. Aliquam nec lacus sed diam porttitor eleifend sed nec nisl. Aliquam varius convallis nulla nec convallis. Phasellus vitae cursus orci. Suspendisse varius interdum pellentesque. Curabitur lacinia est eros, non dignissim massa laoreet eget.
+                        </p>
+                </div>
             </div>
 
             <!-- Social links on right -->
-            <div class="col hover social_conatiner">
+            <div class="col-4 social_conatiner">
                 Social Links
-                <div class="row black hover">
-                    <div class="col social_name">Linkedin</div>
-                    <div class="col social_image_container"><img src="./Images/linkedin_white.png" alt="Linkedin" class="img-fluid social_image"></div>
+                <div class="row ">
+               
+                    <div class="col social_image_container"><img src="./Images/SocialLogo_linkedin_inverted.png" alt="Linkedin" class="img-fluid social_image float-right "></div>
                 </div>
-                <div class="row black hover">
-                    <div class="col social_name">Github</div>
-                    <div class="col social_image_container"><img src="./Images/github_white.png" alt="GitHub" class="img-fluid social_image"></div>
+                <div class="row ">
+                    
+                    <div class="col social_image_container"><img src="./Images/SocialLogo_github_inverted.png" alt="GitHub" class="img-fluid social_image float-right "></div>
                 </div>
 
-                <div class="row black hover">
-                    <div class="col social_name">Facebook</div>
-                    <div class="col social_image_container"><img src="./Images/facebook_white.png" alt="Facebook" class="img-fluid social_image"></div>
+                <div class="row ">
+                    
+                    <div class="col social_image_container"><img src="./Images/SocialLogo_facebook_inverted.png" alt="Facebook" class="img-fluid social_image float-right "></div>
                 </div>
             </div>
         </div>
