@@ -33,7 +33,9 @@ body{
 
 .about_me{
     
+    /* background-color: white; */
     
+    padding: 3%;
     
 }
 .bio_container{
@@ -46,7 +48,8 @@ body{
     
 }
 .social_image{
-    
+  /* -webkit-filter: drop-shadow(5px 5px 5px rgb(148, 148, 148));
+  filter: drop-shadow(5px 5px 5px rgb(148, 148, 148)); */
 } 
 .social_name{
     background-image: linear-gradient(45deg,#12c2e9,#c471ed, #f64f59) ;
@@ -68,5 +71,5 @@ body{
 }
 .hover:hover{
     background-color: white;
-    border-radius: 5%;
+  
 }
