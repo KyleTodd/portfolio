@@ -30,24 +30,23 @@ body{
 .headshot_photo{
 
 }
-.red{
-    /* background-color: red; */
+.social_conatiner{
+    text-align: right;
     
 } 
-.blue{
-    /* background-color: blue; */
 
-}
 .about_me{
     background-color: white;
     height: 30em;
-    border-radius: 5%;
+    
 }
 .purple{
     background-color: purple;
+    height: 10em;
 }
 .yellow{
     background-color: yellow;
+    height: 10em;
 }
 .hover:hover{
     background-color: white;
