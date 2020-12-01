@@ -1,20 +1,54 @@
-*{
- font-family: Arial, Helvetica, sans-serif;   
-}
 
+
+.center_main{
+    text-align: center;
+
+}
+body{
+    background-image: linear-gradient(45deg,#12c2e9,#c471ed, #f64f59);
+}
+.main_row{
+    
+}
+.name{
+    font-size: 10em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: white;
+    
+}
+.subheading{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    margin-top: -8%;
+    color: white;
+}
+.headshot{
+
+}
+.headshot_photo{
+
+}
 .red{
-    background-color: red;
-}
+    /* background-color: red; */
+    
+} 
 .blue{
-    background-color: blue;
+    /* background-color: blue; */
 
 }
-.green{
-    background-color: green;
+.about_me{
+    background-color: white;
+    height: 30em;
+    border-radius: 5%;
 }
 .purple{
     background-color: purple;
 }
 .yellow{
     background-color: yellow;
+}
+.hover:hover{
+    background-color: white;
 }
